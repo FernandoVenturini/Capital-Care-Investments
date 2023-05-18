@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --white: #FFFFFF;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background: var(--white);
+}
+
+header {
+    width: 1440px;
+    height: 810px;
+    background: linear-gradient(232.69deg, #2A2B37 28.37%, #2A2B37 95.18%);
+    top: 0;
+    left: 0;
+    position: absolute;
+}
