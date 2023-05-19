@@ -8,19 +8,200 @@
 
 :root {
     --white: #FFFFFF;
+    --blue: #2A2B37;
 }
 
 body {
     width: 100%;
     overflow-x: hidden;
-    background: var(--white);
 }
 
 header {
+    position: relative;
     width: 1440px;
     height: 810px;
-    background: linear-gradient(232.69deg, #2A2B37 28.37%, #2A2B37 95.18%);
-    top: 0;
-    left: 0;
+    left: 0px;
+    top: 0px;
+} 
+
+#container {
     position: absolute;
+    width: 1440px;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(232.69deg, #2A2B37 28.37%, #2A2B37 95.18%);
+}
+
+#logo_header .logo_header { 
+    position: absolute;
+    width: 66.13px;
+    height: 60.8px;
+    left: 127.06px;
+    top: 42.35px;
+}
+
+#logo_header .letter_h1 {
+    position: absolute;
+    width: 23.53px;
+    height: 34.14px;
+    left: 156.59px;
+    top: 68.89px;
+}
+
+#logo_header .letter_o {
+    position: absolute;
+    width: 25.86px;
+    height: 25.79px;
+    left: 182.82px;
+    top: 77.98px;
+}
+
+#logo_header .letter_m {
+    position: absolute;
+    width: 36.76px;
+    height: 25.05px;
+    left: 210.88px;
+    top: 77.98px;
+}
+
+#logo_header .letter_e1 {
+    position: absolute;
+    width: 25.37px;
+    height: 25.79px;
+    left: 249.84px;
+    top: 77.98px;
+}
+
+#logo_header .letter_s {
+    position: absolute;
+    width: 20.59px;
+    height: 25.67px;
+    left: 276.8px;
+    top: 78.1px;
+}
+
+#logo_header .letter_h2 {
+    position: absolute;
+    width: 23.53px;
+    height: 34.14px;
+    left: 300.58px;
+    top: 68.89px;
+}
+
+#logo_header .letter_a {
+    position: absolute;
+    width: 26.22px;
+    height: 25.79px;
+    left: 326.92px;
+    top: 77.98px;
+}
+
+#logo_header .letter_r {
+    position: absolute;
+    width: 14.7px;
+    height: 24.93px;
+    left: 357.07px;
+    top: 78.22px;
+}
+
+#logo_header .letter_e2 {
+    position: absolute;
+    width: 25.37px;
+    height: 25.79px;
+    left: 372.75px;
+    top: 77.98px;
+}
+
+header h2 {
+    position: absolute;
+    width: 387px;
+    height: 38px;
+    left: 122px;
+    top: 203px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    color: #00BC9A;
+}
+
+header h1 {
+    position: absolute;
+    width: 590px;
+    height: 142px;
+    left: 122px;
+    top: 265px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 139.6%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.header_paragraph {
+    position: absolute;
+    width: 488px;
+    height: 114px;
+    left: 122px;
+    top: 432px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 188.03%;
+    letter-spacing: 0.5px;
+    color: #E0E0E0;
+}
+
+header button {
+    position: absolute;
+    width: 286px;
+    height: 80px;
+    left: 120px;
+    top: 601px;
+    background: #00BC9A;
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    line-height: 170.53%;
+    letter-spacing: 0.5px;
+}
+
+header .icon_play {
+    position: absolute;
+    width: 19.87px;
+    height: 19.63px;
+    left: 466px;
+    top: 631px;
+}
+
+header p {
+    position: absolute;
+    width: 118px;
+    height: 34px;
+    left: 494px;
+    top: 624px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 170.53%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+header .icon_arrow {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    left: 628px;
+    top: 636px;
+    /*border: 2px solid #FFFFFF;*/
 }
