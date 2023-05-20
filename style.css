@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -15,7 +16,7 @@
 
 body {
     width: 100%;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 header {
@@ -56,7 +57,7 @@ header {
 /* Maintenance Dash */
 #Maintenance_Dash {
     position: absolute;
-    width: 845.25px;
+    width: 620px;
     height: 526.66px;
     left: 731.25px;
     top: 177.67px;
@@ -296,6 +297,7 @@ header {
     text-decoration: none;
 }
 
+/*LOGO HEADER*/
 #logo_header .letter_h1 {
     position: absolute;
     width: 23.53px;
@@ -459,4 +461,337 @@ header .icon_arrow {
     left: 628px;
     top: 636px;
     /*border: 2px solid #FFFFFF;*/
+}
+
+/* Maintenance Dash - Search */
+#search {
+    position: absolute;
+    width: 715px;
+    height: 115px;
+    left: 128px;
+    top: 0px;
+}
+
+#search h3 {
+    width: 201px;
+    height: 21px;
+    padding: 18px 0 0 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #3E435D;
+}
+
+#search p {
+    position: absolute;
+    width: 75.83px;
+    height: 14.06px;
+    left: 26px;
+    top: 47.07px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    color: #ADA7A7;
+}
+
+#search-box {
+    position: absolute;
+    width: 207.79px;
+    height: 30.52px;
+    left: 270px;
+    top: 24px;
+    border-radius: 5px;
+    background: #F9F9F9;
+}
+
+#search-box:hover {
+    border: 1px solid #ADA7A7;
+}
+
+#search-box ion-icon {
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 20px;
+    height: 20px;
+    color: #ADA7A7;
+    cursor: pointer;
+}
+
+#search-box input {
+    position: absolute;
+    width: 150px;
+    height: 25px;
+    left: 50px;
+    top: 3px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9.39167px;
+    color: #ADA7A7;
+    background: #F9F9F9;
+}
+
+/*MAINTENANCE DASH - BUTTONS*/
+#btn-dash {
+    width: 450px;
+    position: absolute;
+    top: 90px;
+    left: 26px;
+    border-radius: 3px;
+    display: flex;
+}
+
+#btn-dash .active {
+    background: #00BC9A;
+    width: 130px;
+    height: 28px;
+    color: #fff;
+    padding: 7px;
+    margin-right: 14px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 9px;
+    font-family: 'Poppin', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-dash .btn-2, .btn-3 {
+    width: 130px;
+    height: 28px;
+    margin-right: 14px;
+    border: 1px solid #f9f9f9;
+    border-radius: 3px;
+    color: #b4b4b4;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    font-size: 9px;
+    font-family: 'Poppin', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*Maintenance Dash - center*/
+#div-2 {
+    position: absolute;
+    width: 340px;
+    height: 250px;
+    margin: auto;
+    left: 155px;
+    border-radius: 5px;
+    margin-top: 150px;
+    box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.08);
+}
+
+#div-2 p {
+    position: absolute;
+    display: flex;
+    width: 105px;
+    height: 35px;
+    left: 30px;
+    top: 12px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    align-items: center;
+    color: #00BC9A;
+}
+
+#div-2 p .credit {
+    font-size: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    color: #35495d;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#div-2 .earning {
+    position: absolute;
+    height: 11px;
+    left: 30px;
+    right: 79.27%;
+    top: calc(13% - 11px/2 + 12.06px);
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    display: flex;
+    align-items: flex-end;
+    color: #35495D;
+}
+
+#div-2 .earning ion-icon {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 45px;
+    top: 4px;
+    color: #35495d;
+}
+
+#div-2 .icon-plus {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    left: 50%;
+    top: 16px;
+    background: #00C896;
+    border-radius: 50%;
+    color: #fff;
+    padding: 4px;
+}
+
+/*Graphic*/
+#graphic {
+    position: absolute;
+    display: block;
+    width: 340px;
+    height: 200px;
+    top: 50px;
+}
+
+#graphic p {
+    position: relative;
+    height: 13px;
+    left: 65%;
+    right: 0.01%;
+    top: calc(70% - 13px/2 - 57.19px);
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 13px;
+    display: flex;
+    align-items: flex-end;
+    color: #00C896;
+}
+
+#graphic .img-graphic {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 20px;
+    top: 80px;
+    margin: auto;
+}
+
+#graphic .img-graphic-retangle {
+    position: absolute;
+    width: 0.6px;
+    height: 127px;
+    left: 63.8%;
+    top: 25%;
+}
+
+#graphic span {
+    position: absolute;
+    height: 11px;
+    left: 65%;
+    top: calc(70% - 11px/2 - 44.92px);
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.42999px;
+    line-height: 11px;
+    display: flex;
+    align-items: flex-end;
+    color: #00C896;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+#graphic .img-oval {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 62%;
+    top: 54%;
+}
+
+/*Months*/
+#div-2 .months {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 11px;
+    top: 90%;
+    padding: 10px;
+}
+
+#div-2 .months li {
+    height: 11px;
+    left: 50%;
+    top: calc(50% - 11px/2 - 0.07px);
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7px;
+    line-height: 11px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #00C896;
+}
+
+/*Dash botton*/
+#div-3 {
+    position: absolute;
+    width: 443px;
+    height: 247px;
+    left: 153px;
+    top: 423px;
+    box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.08);
+    border-radius: 11px;
+}
+
+#div-3 .title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-3 h3 {
+    position: relative;
+    width: 106px;
+    height: 15px;
+    left: 0px;
+    top: 0;
+    font-size: 11px;
+    font-family: 'Poppin', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #333333;
+}
+
+#div-3 ion-icon {
+    color: #cdcdcd;
+    font-size: 10px;
+}
+
+#div-3 .section-1, .section-2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 30px;
 }
